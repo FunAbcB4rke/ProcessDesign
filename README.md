@@ -7,7 +7,7 @@
 | # | 記事 | 概要 |
 |---|------|------|
 | 1 | [工程設計の全体像](./articles/01-overview.md) | 工程設計の全体フローと成果物の一覧・依存関係 |
-| 2 | [工程フロー図](./articles/02-process-flow-diagram.md) | 工程図記号・記載項目・作成手順・具体例 |
+| 2 | [工程フローチャート](./articles/02-process-flow-chart.md) | 工程図記号・記載項目・作成手順・具体例 |
 | 3 | [PFMEA（工程FMEA）](./articles/03-pfmea.md) | *作成中* |
 
 ## 対象読者
@@ -24,6 +24,6 @@ ProcessDesign/
 ├── README.md          # 本ファイル
 └── articles/
     ├── 01-overview.md              # 工程設計の全体像
-    ├── 02-process-flow-diagram.md  # 工程フロー図
+    ├── 02-process-flow-chart.md     # 工程フローチャート
     └── 03-pfmea.md                 # PFMEA（工程FMEA）
 ```

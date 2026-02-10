@@ -25,7 +25,7 @@ Phase 1           Phase 2              Phase 3              Phase 4             
 |----------|------|----------|
 | Phase 1 | 企画・定義 | 顧客ニーズの把握、品質・信頼性目標の設定、予備BOMの作成 |
 | Phase 2 | 製品設計・開発 | DFMEA作成、試作品の製作・評価、製品図面・仕様書の確定 |
-| **Phase 3** | **工程設計・開発** | **工程フロー図、PFMEA、コントロールプラン、作業標準書の作成** |
+| **Phase 3** | **工程設計・開発** | **工程フローチャート、PFMEA、コントロールプラン、作業指示書の作成** |
 | Phase 4 | 製品・工程の妥当性確認 | 量産試作、MSA、工程能力調査（Cp/Cpk）、PPAP提出 |
 | Phase 5 | 量産・フィードバック | 量産開始、ばらつき低減活動、継続的改善 |
 
@@ -41,23 +41,25 @@ Phase 1           Phase 2              Phase 3              Phase 4             
 
 | # | 成果物 | 英語名 | 主管部門 | 概要 |
 |---|--------|--------|----------|------|
-| 1 | [工程フロー図](./02-process-flow-diagram.md) | Process Flow Diagram (PFD) | 生産技術 | 受入から出荷までの全工程の流れを図示 |
+| 1 | [工程フローチャート](./02-process-flow-chart.md) | Process Flow Chart | 生産技術 | 受入から出荷までの全工程の流れを図示 |
 | 2 | [PFMEA](./03-pfmea.md) | Process FMEA | 生産技術 / 品質 | 各工程の潜在的な故障モードとリスクを分析 |
 | 3 | [コントロールプラン](./04-control-plan.md) | Control Plan (CP) | 品質保証 | PFMEAの結果を反映した工程管理計画 |
-| 4 | [QC工程表](./05-qc-process-chart.md) | QC Process Chart | 品質保証 | 品質管理の手法・基準を工程ごとに規定 |
-| 5 | [作業標準書](./06-work-instruction.md) | Work Instruction (WI) / SOP | 製造 / 生産技術 | 現場作業者向けの具体的な作業手順 |
-| 6 | [設備仕様書](./07-equipment-spec.md) | Equipment Specification | 生産技術 | 生産設備の要求仕様を定義 |
-| 7 | [治工具設計図](./08-jig-fixture.md) | Jig & Fixture Design Drawing | 生産技術 | 治具・工具・取付具の設計図面 |
-| 8 | [工場レイアウト図](./09-plant-layout.md) | Plant Layout Drawing | 生産技術 | 設備配置・物流動線・作業スペースの平面図 |
-| 9 | [工程設計書](./10-process-design-doc.md) | Process Design Document | 生産技術 | 工程設計の全体を総括する文書 |
+| 4 | [特性マトリクス](./05-characteristics-matrix.md) | Characteristics Matrix | 生産技術 / 品質 | 工程と製品特性の関係を一覧化 |
+| 5 | [QC工程表](./06-qc-process-chart.md) | QC Process Chart | 品質保証 | 品質管理の手法・基準を工程ごとに規定 |
+| 6 | [作業指示書](./07-process-instructions.md) | Process Instructions | 製造 / 生産技術 | 現場作業者向けの具体的な作業手順 |
+| 7 | [設備仕様書](./08-equipment-spec.md) | Equipment Specification | 生産技術 | 生産設備の要求仕様を定義 |
+| 8 | [治工具設計図](./09-jig-fixture.md) | Jig & Fixture Design Drawing | 生産技術 | 治具・工具・取付具の設計図面 |
+| 9 | [フロアプランレイアウト](./10-floor-plan-layout.md) | Floor Plan Layout | 生産技術 | 設備配置・物流動線・作業スペースの平面図 |
+| 10 | [梱包仕様書](./11-packaging-spec.md) | Packaging Specifications | 生産技術 / 物流 | 梱包方法・材料・輸送要件を規定 |
+| 11 | [工程設計書](./12-process-design-doc.md) | Process Design Document | 生産技術 | 工程設計の全体を総括する文書 |
 
 ### Phase 4: 製品・工程の妥当性確認
 
 | # | 成果物 | 英語名 | 主管部門 | 概要 |
 |---|--------|--------|----------|------|
-| 10 | [MSA](./11-msa.md) | Measurement System Analysis | 品質保証 | 測定システムの信頼性を評価 |
-| 11 | [工程能力調査](./12-process-capability.md) | Process Capability Study (Cp/Cpk) | 品質保証 | 工程が規格内で安定生産できるかを統計的に評価 |
-| 12 | [PPAP / 初品検査](./13-ppap.md) | Production Part Approval Process | 品質保証 | 量産部品が顧客要求を満足することを証明 |
+| 12 | [MSA](./13-msa.md) | Measurement System Analysis | 品質保証 | 測定システムの信頼性を評価 |
+| 13 | [工程能力調査](./14-process-capability.md) | Process Capability Study (Cp/Cpk) | 品質保証 | 工程が規格内で安定生産できるかを統計的に評価 |
+| 14 | [PPAP / 初品検査](./15-ppap.md) | Production Part Approval Process | 品質保証 | 量産部品が顧客要求を満足することを証明 |
 
 ---
 
@@ -72,13 +74,13 @@ Phase 1           Phase 2              Phase 3              Phase 4             
 ┌──────────────────────────────────────────────────────────┐
 │ Phase 3: 工程設計・開発                                    │
 │                                                           │
-│   ① 工程フロー図 ─────────────────┐                      │
+│   ① 工程フローチャート ─────────────────┐                      │
 │       │                            │                      │
 │       │                     ⑥ 設備仕様書                  │
 │       │                        │                          │
 │       │                     ⑦ 治工具設計図                │
 │       │                                                   │
-│       │                     ⑧ 工場レイアウト図            │
+│       │                     ⑧ フロアプランレイアウト       │
 │       ▼                                                   │
 │   ② PFMEA（リスク分析）                                   │
 │       │                                                   │
@@ -86,7 +88,7 @@ Phase 1           Phase 2              Phase 3              Phase 4             
 │   ③ コントロールプラン ←→ ④ QC工程表                     │
 │       │                                                   │
 │       ▼                                                   │
-│   ⑤ 作業標準書                                            │
+│   ⑤ 作業指示書                                            │
 │       │                                                   │
 │   ⑨ 工程設計書（全体の総括文書）                           │
 │                                                           │
@@ -114,13 +116,13 @@ Phase 1           Phase 2              Phase 3              Phase 4             
 
 | 関係 | 説明 |
 |------|------|
-| 工程フロー図 → PFMEA | 工程フロー図の各ステップに対してリスク分析を行う |
+| 工程フローチャート → PFMEA | 工程フローチャートの各ステップに対してリスク分析を行う |
 | PFMEA → コントロールプラン | PFMEAで特定した高リスク項目の管理方法を規定する |
-| コントロールプラン → 作業標準書 | コントロールプランの管理方法を、現場で実行できる手順に展開する |
+| コントロールプラン → 作業指示書 | コントロールプランの管理方法を、現場で実行できる手順に展開する |
 | コントロールプラン ↔ QC工程表 | 類似の目的を持つ文書。コントロールプランはIATF 16949で規定された形式、QC工程表は日本独自の慣行 |
-| 工程フロー図 → 設備仕様書 | 工程の内容に基づいて必要な設備を定義する |
+| 工程フローチャート → 設備仕様書 | 工程の内容に基づいて必要な設備を定義する |
 | 設備仕様書 → 治工具設計図 | 設備に合わせた治工具を設計する |
-| 工程フロー図 → 工場レイアウト図 | 工程の流れに基づいて設備配置を計画する |
+| 工程フローチャート → フロアプランレイアウト | 工程の流れに基づいて設備配置を計画する |
 | MSA → 工程能力調査 | 測定システムの信頼性を確認してから工程能力を評価する |
 | 全成果物 → PPAP | PPAPは上記成果物を含む18要素で構成される承認パッケージ |
 
@@ -146,15 +148,18 @@ APQP体系では、以下の **5コアツール** が工程設計を支える品
 |--------|------|------|
 | 工程設計 | Process Design / Process Planning | - |
 | 先行製品品質計画 | Advanced Product Quality Planning | APQP |
-| 工程フロー図 | Process Flow Diagram | PFD |
+| 工程フローチャート | Process Flow Chart | - |
 | 工程FMEA | Process FMEA | PFMEA |
 | コントロールプラン | Control Plan | CP |
 | QC工程表 | QC Process Chart | - |
+| 作業指示書 / 工程指示書 | Process Instructions | - |
 | 作業標準書 | Standard Operating Procedure | SOP |
-| 作業手順書 / 作業指示書 | Work Instruction | WI |
+| 作業手順書 | Work Instruction | WI |
+| 特性マトリクス | Characteristics Matrix | - |
+| 梱包仕様書 | Packaging Specifications | - |
 | 設備仕様書 | Equipment Specification | - |
 | 治工具 | Jig & Fixture | - |
-| 工場レイアウト図 | Plant Layout Drawing | - |
+| フロアプランレイアウト | Floor Plan Layout | - |
 | 測定システム解析 | Measurement System Analysis | MSA |
 | 工程能力指数 | Process Capability Index | Cp / Cpk |
 | 工程性能指数 | Process Performance Index | Pp / Ppk |
