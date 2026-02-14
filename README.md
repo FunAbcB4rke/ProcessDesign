@@ -12,6 +12,7 @@
 | 4 | [コントロールプラン](./articles/04-control-plan.md) | 3段階のCP・カラム構成・PFMEAからの展開・対応計画 |
 | 5 | [QC工程表](./articles/06-qc-process-chart.md) | 管理特性と品質特性・コントロールプランとの違い |
 | 6 | [特性マトリクス](./articles/05-characteristics-matrix.md) | 工程×製品特性の関係マッピング・PFMEA/CPへの活用 |
+| 7 | [作業指示書](./articles/07-process-instructions.md) | CPからの展開方法・記載項目・具体例 |
 
 ## 対象読者
 
@@ -31,5 +32,6 @@ ProcessDesign/
     ├── 03-pfmea.md                 # PFMEA（工程FMEA）
     ├── 04-control-plan.md          # コントロールプラン
     ├── 05-characteristics-matrix.md # 特性マトリクス
-    └── 06-qc-process-chart.md      # QC工程表
+    ├── 06-qc-process-chart.md      # QC工程表
+    └── 07-process-instructions.md  # 作業指示書
 ```
