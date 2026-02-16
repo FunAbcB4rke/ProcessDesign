@@ -14,6 +14,7 @@
 | 6 | [特性マトリクス](./articles/05-characteristics-matrix.md) | 工程×製品特性の関係マッピング・PFMEA/CPへの活用 |
 | 7 | [作業指示書](./articles/07-process-instructions.md) | CPからの展開方法・記載項目・具体例 |
 | 8 | [設備仕様書](./articles/08-equipment-spec.md) | 設備要求仕様・精度要件・FAT/SAT受入検査 |
+| 9 | [治工具設計図](./articles/09-jig-fixture.md) | 治具・工具・ゲージの設計原則・3-2-1位置決め・ポカヨケ設計 |
 
 ## 対象読者
 
@@ -35,5 +36,6 @@ ProcessDesign/
     ├── 05-characteristics-matrix.md # 特性マトリクス
     ├── 06-qc-process-chart.md      # QC工程表
     ├── 07-process-instructions.md  # 作業指示書
-    └── 08-equipment-spec.md        # 設備仕様書
+    ├── 08-equipment-spec.md        # 設備仕様書
+    └── 09-jig-fixture.md           # 治工具設計図
 ```
