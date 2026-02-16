@@ -13,6 +13,7 @@
 | 5 | [QC工程表](./articles/06-qc-process-chart.md) | 管理特性と品質特性・コントロールプランとの違い |
 | 6 | [特性マトリクス](./articles/05-characteristics-matrix.md) | 工程×製品特性の関係マッピング・PFMEA/CPへの活用 |
 | 7 | [作業指示書](./articles/07-process-instructions.md) | CPからの展開方法・記載項目・具体例 |
+| 8 | [設備仕様書](./articles/08-equipment-spec.md) | 設備要求仕様・精度要件・FAT/SAT受入検査 |
 
 ## 対象読者
 
@@ -33,5 +34,6 @@ ProcessDesign/
     ├── 04-control-plan.md          # コントロールプラン
     ├── 05-characteristics-matrix.md # 特性マトリクス
     ├── 06-qc-process-chart.md      # QC工程表
-    └── 07-process-instructions.md  # 作業指示書
+    ├── 07-process-instructions.md  # 作業指示書
+    └── 08-equipment-spec.md        # 設備仕様書
 ```
