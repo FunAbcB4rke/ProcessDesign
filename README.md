@@ -9,6 +9,7 @@
 | 1 | [工程設計の全体像](./articles/01-overview.md) | 工程設計の全体フローと成果物の一覧・依存関係 |
 | 2 | [工程フローチャート](./articles/02-process-flow-chart.md) | 工程図記号・記載項目・作成手順・具体例 |
 | 3 | [PFMEA（工程FMEA）](./articles/03-pfmea.md) | 7ステップアプローチ・S/O/D評価・AP・具体例 |
+| 3a | [PFMEA 絶対評価法](./articles/03a-pfmea-absolute-evaluation.md) | 客観説TQMに基づく4点絶対評価・RI算出・工程構造説 |
 | 4 | [コントロールプラン](./articles/04-control-plan.md) | 3段階のCP・カラム構成・PFMEAからの展開・対応計画 |
 | 5 | [QC工程表](./articles/06-qc-process-chart.md) | 管理特性と品質特性・コントロールプランとの違い |
 | 6 | [特性マトリクス](./articles/05-characteristics-matrix.md) | 工程×製品特性の関係マッピング・PFMEA/CPへの活用 |
@@ -35,6 +36,7 @@ ProcessDesign/
     ├── 01-overview.md              # 工程設計の全体像
     ├── 02-process-flow-chart.md     # 工程フローチャート
     ├── 03-pfmea.md                 # PFMEA（工程FMEA）
+    ├── 03a-pfmea-absolute-evaluation.md # PFMEA 絶対評価法（客観説TQM）
     ├── 04-control-plan.md          # コントロールプラン
     ├── 05-characteristics-matrix.md # 特性マトリクス
     ├── 06-qc-process-chart.md      # QC工程表
