@@ -16,6 +16,7 @@
 | 7 | [作業指示書](./articles/07-process-instructions.md) | CPからの展開方法・記載項目・具体例 |
 | 8 | [設備仕様書](./articles/08-equipment-spec.md) | 設備要求仕様・精度要件・FAT/SAT受入検査 |
 | 9 | [治工具設計図](./articles/09-jig-fixture.md) | 治具・工具・ゲージの設計原則・3-2-1位置決め・ポカヨケ設計 |
+| 9a | [工具要求仕様書](./articles/09a-tool-requirement-spec.md) | 工程設計技術課発行の要求仕様・機能/性能/受入条件の記載粒度 |
 | 10 | [フロアプランレイアウト](./articles/10-floor-plan-layout.md) | 設備配置・動線計画・レイアウト形式の選定・具体例 |
 | 11 | [梱包仕様書](./articles/11-packaging-spec.md) | 梱包階層・緩衝設計・輸送試験・物流効率の最適化 |
 | 12 | [工程設計書](./articles/12-process-design-doc.md) | 工程設計の総括文書・文書間整合性・デザインレビュー |
@@ -43,6 +44,7 @@ ProcessDesign/
     ├── 07-process-instructions.md  # 作業指示書
     ├── 08-equipment-spec.md        # 設備仕様書
     ├── 09-jig-fixture.md           # 治工具設計図
+    ├── 09a-tool-requirement-spec.md # 工具要求仕様書
     ├── 10-floor-plan-layout.md     # フロアプランレイアウト
     ├── 11-packaging-spec.md        # 梱包仕様書
     └── 12-process-design-doc.md    # 工程設計書
