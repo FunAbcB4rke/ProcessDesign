@@ -52,14 +52,15 @@ Phase 1           Phase 2              Phase 3              Phase 4             
 | 9 | [フロアプランレイアウト](./10-floor-plan-layout.md) | Floor Plan Layout | 生産技術 | 設備配置・物流動線・作業スペースの平面図 |
 | 10 | [梱包仕様書](./11-packaging-spec.md) | Packaging Specifications | 生産技術 / 物流 | 梱包方法・材料・輸送要件を規定 |
 | 11 | [工程設計書](./12-process-design-doc.md) | Process Design Document | 生産技術 | 工程設計の全体を総括する文書 |
+| 12 | [識別・トレーサビリティ設計](./13-traceability.md) | Identification & Traceability Design | 生産技術 / 品質保証 | 識別単位・識別媒体・記録項目・データフローの設計 |
 
 ### Phase 4: 製品・工程の妥当性確認
 
 | # | 成果物 | 英語名 | 主管部門 | 概要 |
 |---|--------|--------|----------|------|
-| 12 | [MSA](./13-msa.md) | Measurement System Analysis | 品質保証 | 測定システムの信頼性を評価 |
-| 13 | [工程能力調査](./14-process-capability.md) | Process Capability Study (Cp/Cpk) | 品質保証 | 工程が規格内で安定生産できるかを統計的に評価 |
-| 14 | [PPAP / 初品検査](./15-ppap.md) | Production Part Approval Process | 品質保証 | 量産部品が顧客要求を満足することを証明 |
+| 13 | [MSA](./14-msa.md) | Measurement System Analysis | 品質保証 | 測定システムの信頼性を評価 |
+| 14 | [工程能力調査](./15-process-capability.md) | Process Capability Study (Cp/Cpk) | 品質保証 | 工程が規格内で安定生産できるかを統計的に評価 |
+| 15 | [PPAP / 初品検査](./16-ppap.md) | Production Part Approval Process | 品質保証 | 量産部品が顧客要求を満足することを証明 |
 
 ---
 

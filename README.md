@@ -21,6 +21,7 @@
 | 10 | [フロアプランレイアウト](./articles/10-floor-plan-layout.md) | 設備配置・動線計画・レイアウト形式の選定・具体例 |
 | 11 | [梱包仕様書](./articles/11-packaging-spec.md) | 梱包階層・緩衝設計・輸送試験・物流効率の最適化 |
 | 12 | [工程設計書](./articles/12-process-design-doc.md) | 工程設計の総括文書・文書間整合性・デザインレビュー |
+| 13 | [識別・トレーサビリティ設計](./articles/13-traceability.md) | 識別単位・識別媒体・記録項目・データフローの設計。ロット/個体管理、バーコード/QRコード/RFID |
 
 ## 対象読者
 
@@ -49,5 +50,6 @@ ProcessDesign/
     ├── 09b-tool-requirement-spec-adjustment.md # 工具要求仕様書（調整・補正工程編）
     ├── 10-floor-plan-layout.md     # フロアプランレイアウト
     ├── 11-packaging-spec.md        # 梱包仕様書
-    └── 12-process-design-doc.md    # 工程設計書
+    ├── 12-process-design-doc.md    # 工程設計書
+    └── 13-traceability.md          # 識別・トレーサビリティ設計
 ```
